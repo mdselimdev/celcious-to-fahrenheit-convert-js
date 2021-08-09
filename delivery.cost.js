@@ -1,13 +1,10 @@
 
-//Delivery Cost Function Start Here
-
+//NO : 3 Delivery Cost Function Start Here
 function deliveryCost(shirtQuantity) {
     const firstOneHundredPriceAndQuantity = 100;
     const secondOneHundredPrice = 80;
     const thirdInfinityPrice = 50;
-
     if (typeof shirtQuantity == 'number') {
-
         if (shirtQuantity <= 100) {
             const totalDeliveryCostForFirstLoop = shirtQuantity * firstOneHundredPriceAndQuantity;
             return totalDeliveryCostForFirstLoop;
@@ -33,12 +30,7 @@ function deliveryCost(shirtQuantity) {
     } else {
         return "Please Give Only Number Value";
     }
-
 }
-
-const deliveryCostResult = deliveryCost(100);
-
-console.log(deliveryCostResult);
-
-
+const totalProduct = 250;
+const deliveryCostResult = deliveryCost(totalProduct);
 //Delivery Cost Function End Here

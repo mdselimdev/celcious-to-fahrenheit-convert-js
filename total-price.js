@@ -1,6 +1,5 @@
 
-// Total Price Function For a Gentle Shop Start Here
-
+//No : 2 Total Price Function For a Gentle Shop Start Here
 function totalSales(shirt, pant, shoes) {
     if (typeof shirt == 'number' && typeof pant == 'number' && typeof shoes == 'number') {
         const everyShirtPrice = 100;
@@ -15,10 +14,8 @@ function totalSales(shirt, pant, shoes) {
         return 'Give only the number value';
     }
 }
-const shirtQuantity = 0;
-const pantQuantity = 3;
-const shoesQuantity = 5;
+const shirtQuantity = 10;
+const pantQuantity = 0;
+const shoesQuantity = 0;
 const subTotal = totalSales(shirtQuantity, pantQuantity, shoesQuantity);
-console.log(subTotal);
-
 // Total Price Function For a Gentle Shop End Here

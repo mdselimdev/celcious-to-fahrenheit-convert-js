@@ -1,8 +1,5 @@
-// Convert Seer To Mon Functions Start Here 
-
-
+//No : 1, Convert Seer To Mon Functions Start Here 
 function seerToMon(seer) {
-
     if (typeof seer == 'number') {
         const OneMonEquSeer = 40;//OneMon = 40 seer
         const seerTotal = seer / OneMonEquSeer;
@@ -10,13 +7,7 @@ function seerToMon(seer) {
     } else {
         return "Giver only number Value";
     }
-
 }
-
-const seerResult = seerToMon(200);
-
-
-console.log(seerResult);
-
-
+const giveSeer = 100;
+const seerResult = seerToMon(giveSeer);
 // Convert Seer To Mon Functions Start Here
