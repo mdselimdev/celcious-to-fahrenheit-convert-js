@@ -1,6 +1,5 @@
 
 
-//Perfect Friend Find Section Start Here 
 
 function perfectFriend(friends) {
     let perfectFriendName = friends[0];
@@ -16,10 +15,3 @@ function perfectFriend(friends) {
 const friendsName = ['Shah Alam', 'Kawser', 'ashik', 'Sifat Rana', 'Rakibul', 'Nadim', 'Mahabul', 'Sifat', 'Kalam'];
 const result = perfectFriend(friendsName);
 // console.log(result);
-
-
-//Perfect Friend Find Section End Here 
-
-
-
-
